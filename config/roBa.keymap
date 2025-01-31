@@ -86,7 +86,7 @@
             bindings = <
 &kp Q       &kp W         &kp E         &kp R  &kp T                                                             &kp Y  &kp U  &kp I     &kp O  &kp P
 &kp A       &kp S         &kp D         &kp F  &kp G                 &kp A               &lt_to_layer_0 2 ENTER  &kp H  &kp J  &kp K     &kp L  &kp MINUS
-&kp Z       &kp X         &kp C         &kp V  &kp B                 &kp LEFT_SHIFT      &lang1_lang2            &kp N  &kp M  &mkp MB1  &mo 5  &kp SLASH
+&kp Z       &kp X         &kp C         &kp V  &kp B                 &kp LEFT_SHIFT      &lang1_lang2            &kp N  &kp M  &mkp MB1  &mo 5  &kp SEMI
 &kp ESCAPE  &kp LEFT_WIN  &kp LEFT_ALT  &mo 3  &mt LEFT_SHIFT SPACE  &mt LCTRL DOT       &mt LEFT_SHIFT SPACE    &mo 1                          &kp LEFT_GUI
             >;
 
