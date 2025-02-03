@@ -114,7 +114,7 @@
             bindings = <
 &kp Q       &kp W         &kp E         &kp R               &kp T                                                             &kp Y  &kp U  &kp I     &kp O  &kp P
 &kp A       &kp S         &kp D         &kp F               &kp G                 &mo 6               &lt_to_layer_0 2 ENTER  &kp H  &kp J  &kp K     &kp L  &kp MINUS
-&kp Z       &kp X         &kp C         &kp V               &kp B                 &kp LEFT_SHIFT      &lang1_lang2            &kp N  &kp M  &mkp MB1  &mo 5  &kp SEMI
+&kp Z       &kp X         &kp C         &kp V               &kp B                 &kp LEFT_SHIFT      &lang1_lang2            &kp N  &kp M  &mkp MB1  &mo 5  &mt LCTRL SEMI
 &kp ESCAPE  &kp LEFT_WIN  &kp LEFT_ALT  &mo_release_alt 3   &mt LEFT_SHIFT COMMA  &mt LCTRL DOT       &mt LEFT_SHIFT SPACE    &mo 1                          &kp LEFT_GUI
             >;
 
@@ -123,9 +123,9 @@
 
         Number {
             bindings = <
-&trans        &kp PIPE      &kp BACKSLASH  &kp TILDE     &kp GRAVE                      &trans        &kp DOUBLE_QUOTES  &kp PLUS      &kp EQUAL     &kp SINGLE_QUOTE
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp N5     &trans      &trans  &kp NUMBER_6  &kp NUMBER_7       &kp NUMBER_8  &kp NUMBER_9  &kp N0
-&kp EXCL      &kp AT        &kp HASH       &kp DLLR      &kp PRCNT  &trans      &trans  &kp CARET     &kp AMPERSAND      &kp ASTERISK  &kp FSLH      &kp QMARK
+&trans        &kp PIPE      &kp BACKSLASH  &kp TILDE     &kp GRAVE                      &kp DOUBLE_QUOTES   &kp MINUS       &kp PLUS      &kp EQUAL     &kp SINGLE_QUOTE
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp N5     &trans      &trans  &kp NUMBER_6        &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9  &kp N0
+&kp EXCL      &kp AT        &kp HASH       &kp DLLR      &kp PRCNT  &trans      &trans  &kp CARET           &kp AMPERSAND   &kp ASTERISK  &kp FSLH      &kp QMARK
 &trans        &trans        &trans         &trans        &trans     &trans      &trans  &trans                                                       &trans
             >;
 
@@ -163,10 +163,10 @@
 
         Scroll {
             bindings = <
-&trans  &kp F7  &kp F8  &kp F9  &kp F10                        &trans    &trans  &trans    &trans  &trans
-&trans  &kp F4  &kp F5  &kp F6  &kp F11  &trans      &trans    &trans    &trans  &trans    &trans  &trans
-&trans  &kp F1  &kp F2  &kp F2  &kp F12  &trans      &trans    &trans    &trans  &mkp MB2  &trans  &trans
-&trans  &trans  &trans  &trans  &trans   &trans      &mkp MB4  &mkp MB5                            &trans
+&trans          &kp F7  &kp F8  &kp F9  &kp F10                        &trans    &trans  &trans    &trans  &trans
+&kp PAGE_UP     &kp F4  &kp F5  &kp F6  &kp F11  &trans      &trans    &trans    &trans  &trans    &trans  &trans
+&kp PAGE_DOWN   &kp F1  &kp F2  &kp F2  &kp F12  &trans      &trans    &trans    &trans  &mkp MB2  &trans  &trans
+&trans          &trans  &trans  &trans  &trans   &trans      &mkp MB4  &mkp MB5                            &trans
             >;
         };
 
