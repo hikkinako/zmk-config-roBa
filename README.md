@@ -17,6 +17,9 @@ powershell -ExecutionPolicy Bypass -File .\scripts\build.ps1
 ![image](https://github.com/user-attachments/assets/bfda4a6d-9c70-45a0-aa1d-ff0b076dd64e)
 
 
+
+
+
 # docker設定
 https://github.com/kot149/zmk-config-roBa/blob/main/docs/build_locally.md
 
