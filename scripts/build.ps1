@@ -1,5 +1,5 @@
 # ID of ZMK container in which build.sh is executed
-$CONTAINER_ID = "128e722c1e20"
+$CONTAINER_ID = "39c5edc7cad2"
 
 # Check container status
 try {
